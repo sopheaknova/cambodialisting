@@ -1,0 +1,59 @@
+@media screen and (max-width: 960px) {
+
+	.container{
+		width: 100%;
+		padding: 0;
+	}
+
+	.one_half, .one_third, .two_third, .three_fourth, .two_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .two_sixth, .three_sixth, .four_sixth, .five_sixth{
+		float: none;
+		width: 100%;
+	}
+
+	.logo{
+		margin: 10px auto 0;
+	}
+	.logo, #dir-search-form{float: none; text-align: center;}
+
+	.directory-search{
+		width:100%;
+		margin: 10px 0;
+	}
+	#dir-search-form .dir-search-text, 
+	#dir-search-form .dir-search-submit{
+		width:100%;
+		display: block;
+		margin: 2px 0;
+	}
+
+	#listing-info, .directory-search{
+		padding: 0 10px;
+	}
+	#listing-map{
+		padding: 15px 10px;
+	}
+
+	.listing-name{
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+
+	#dir-search-form .dir-search-text{
+		width: 190px;
+	}
+
+	#dir-search-form .dir-search-submit{
+		width:90px;
+		font-size: 12px;
+	}
+
+	#dir-search-form .dir-search-text, 
+	#dir-search-form .dir-search-submit{
+		display: inline-block;
+	}
+
+}
